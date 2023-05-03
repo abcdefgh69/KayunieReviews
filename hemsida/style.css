@@ -174,3 +174,10 @@ footer {
         font-size: 1.5rem;
     }
 }
+
+@media screen and (min-width: 1200px) {
+  .review-container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+}
