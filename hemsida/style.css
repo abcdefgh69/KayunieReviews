@@ -1,0 +1,176 @@
+/* Global Styles */
+@font-face {
+    font-family:'Aventine';
+    src: url(fonts/AventineRegular.woff);
+}
+html, body {
+    height: 100%;
+}
+
+body {
+    background-color: #a58e74; /* replace 'yourcolor' with your desired color code */
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body {
+	font-family: 'Aventine', sans-serif;
+  }
+  
+  h1, h2, h3, h4, h5, h6 {
+	font-family: 'Aventine', sans-serif;
+  }
+a {
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+  }
+  body {
+    min-height: 100vh;
+    height: 100vh;
+  }
+
+/* Header Styles */
+
+a.home-link {
+    color: #ffdfcd; 
+    font-size: 40px;
+}
+
+
+header {
+    background-color: #424530;
+    color: #ffefcd;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    margin-left: 1px;
+    margin-right: 90px;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li:last-child {
+    margin-right: 60px;
+}
+
+nav ul li a {
+    color: #ffdfcd;
+    font-size: 30px;
+}
+
+/* Main Styles */
+
+.hero {
+    background-color: #a58e74;
+    background-position: center;
+    background-repeat: repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 400px;
+    color: #ffdfcd;
+    font-size: 1.5rem;
+}
+
+.hero h1 {
+    color:#424530;
+    font-size: 4rem;
+    margin-bottom: 5px;
+}
+
+.featured-reviews-title {
+    color: #424530;
+    font-size: 40px;
+    padding-right: 50px;
+}
+
+.featured-reviews {
+    background-color: #a58e74;
+    letter-spacing: 2px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 1px;
+    color: #ffdfcd
+
+}
+
+.review {
+    background-color: #424530;
+    border: 1px solid #424530;
+    margin: 20px;
+    padding: 20px;
+    width: 300px;
+    text-align: center;
+}
+
+.review img {
+    margin-bottom: 10px;
+}
+
+.review h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.review p {
+    margin-bottom: 10px;
+}
+
+.review a {
+    background-color: #424531;
+    color: #ffdfcd;
+    display: block;
+    margin-top: 10px;
+    padding: 10px;
+    text-align: center;
+    text-transform: uppercase;
+}
+/* Footer Styles */
+
+footer {
+    background-color: #424530;
+    color: #ffdfcd;
+    text-align: center;
+    padding: 20px;
+}
+/* Media Queries */
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    nav ul {
+        margin-top: 20px;
+    }
+
+    .hero h1 {
+        font-size: 2rem;
+    }
+
+    .review {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .hero h1 {
+        font-size: 1.5rem;
+    }
+}
